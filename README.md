@@ -10,9 +10,10 @@
 * Create a EC2 Instance of Ubuntu LTS
 * Capture the pem key
 * Go to Instance Overview and Grab the Instance Public DNS (or IP, but DNS is better)
+* Add HTTP and HTTPS to Security Group associated with the instance
 
 ## NGINX
-* Run Following on Ubuntu Server
+* Run Following on Ubuntu Server https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview
 ```
 sudo apt update
 ```
